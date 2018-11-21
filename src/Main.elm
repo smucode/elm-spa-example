@@ -26,6 +26,7 @@ import Username exposing (Username)
 import Viewer exposing (Viewer)
 
 
+
 -- NOTE: Based on discussions around how asset management features
 -- like code splitting and lazy loading have been shaping up, it's possible
 -- that most of this file may become unnecessary in a future release of Elm.
@@ -42,7 +43,7 @@ type Model
     | Register Register.Model
     | Profile Username Profile.Model
     | Article Article.Model
-    | Editor (Maybe Slug) Editor.Model
+    | Editor Slug Editor.Model
 
 
 

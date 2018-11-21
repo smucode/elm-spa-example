@@ -1,0 +1,22 @@
+{
+  "name": "elm-spa-example",
+  "version": "1.0.0",
+  "description": "👉 I gave [a talk](https://www.youtube.com/watch?v=x1FU3e0sT1I) to explain the principles I used to build this. I highly recommend watching it!",
+  "main": "run.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "make": "rm -rf elm-stuff && node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smucode/elm-spa-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smucode/elm-spa-example/issues"
+  },
+  "homepage": "https://github.com/smucode/elm-spa-example#readme"
+}
